@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(52, 52, 197);
+  }
+
+  h1 {
+    background-color: white;
+    /* display: flex; */
+    text-align: center;
+    color: rgb(52, 52, 197);
+  }
+
+.container {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#toDoInput {
+    width: 270px;
+    height: 40px;
+    border: 2px solid rgb(52, 52, 197);
+    border-radius: 5px;
+}
+
+#addButton {
+    width: 80px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgb(52, 52, 197);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+ul {
+    /* list-style-type: none; */
+    padding: 0;
+    
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+    background-color:rgb(151, 151, 197) ;
+    width: 385px;
+    height: 45px;
+    border: 1px solid rgb(126, 126, 196);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+.trash {
+    
+    color:white;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color:rgb(52, 52, 197) ;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+.editButton{
+    /* width: 50px; */
+    height: 30px;
+    background-color: rgb(240, 225, 12);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.deleteButton{
+    margin-right: -70px;
+    height: 30px;
+    background-color: rgb(173, 15, 15);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.deleteButton, .editButton{
+    display: flex;
+
+    display: inline-block;
+    margin-right: 10px;
+} 
+
+
+
